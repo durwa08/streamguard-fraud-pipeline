@@ -1,0 +1,56 @@
+{
+  "run_1": {
+    "valid_tx": 173,
+    "duplicates_skipped": 9,
+    "late_dropped": 0,
+    "dlq_routed": 18,
+    "new_alerts_inserted": 103,
+    "total_unique_alerts_in_store": 103
+  },
+  "run_2_replay": {
+    "valid_tx": 173,
+    "duplicates_skipped": 9,
+    "late_dropped": 0,
+    "dlq_routed": 18,
+    "new_alerts_inserted": 0,
+    "total_unique_alerts_in_store": 103
+  },
+  "daily_rule_precision": [
+    {
+      "alert_date": "2026-11-25",
+      "rule_name": "amount_spike",
+      "total_alerts": 16,
+      "reviewed_alerts": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "precision_score": 0.0
+    },
+    {
+      "alert_date": "2026-11-25",
+      "rule_name": "impossible_travel",
+      "total_alerts": 28,
+      "reviewed_alerts": 2,
+      "true_positives": 1,
+      "false_positives": 1,
+      "precision_score": 0.5
+    },
+    {
+      "alert_date": "2026-11-25",
+      "rule_name": "merchant_blacklist",
+      "total_alerts": 52,
+      "reviewed_alerts": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "precision_score": 0.0
+    },
+    {
+      "alert_date": "2026-11-25",
+      "rule_name": "velocity",
+      "total_alerts": 7,
+      "reviewed_alerts": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "precision_score": 0.0
+    }
+  ]
+}
